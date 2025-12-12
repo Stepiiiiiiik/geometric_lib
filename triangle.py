@@ -10,7 +10,7 @@ def area(a, h) :
             Площадь треугольника, заданного высотой и основанием
 
     '''
-    return a * h / 2
+    return abs(a) * abs(h) / 2
 
 
 def perimeter(a, b, c) :
@@ -27,4 +27,4 @@ def perimeter(a, b, c) :
 
     '''
 
-    return a + b + c
+    return abs(a) + abs(b) + abs(c)
